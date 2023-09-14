@@ -1,0 +1,208 @@
+div.sidebar {
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 370px;
+    background-color: black;
+    border-right-width: 1px;
+    border-right-color: rgb(59, 59, 59);
+    border-right-style: solid;
+}
+
+div.sidebar-whitespace {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+div.sidebar-icons{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 120px;
+    width: 290px;
+    align-items: start;
+}
+
+div.sidebar-icons div {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 50px;
+}
+
+
+img.twitter-icon {
+    width: 28px;
+    height: 26px;
+    vertical-align: bottom;
+}
+
+img.home-icon {
+    width: 30px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+img.explore-icon {
+    width: 26px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+img.notification-icon {
+    width: 28px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+img.messages-icon {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+img.lists-icon {
+    width: 25px;
+    height: 29px;
+    vertical-align: middle;
+}
+
+img.bookmarks-icon {
+    width: 20px;
+    height: 29px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+img.verified-icon {
+    width: 27px;
+    height: 29px;
+    vertical-align: middle;
+}
+
+img.profile-icon {
+    width: 25px;
+    height: 27px;
+    vertical-align: middle;
+}
+
+img.more-icon {
+    width: 27px;
+    height: 29px;
+    vertical-align: middle;
+}
+
+
+div.sidebar-icons button {
+    background-color: black;
+    border-width: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div.sidebar-icons button:hover {
+    cursor: pointer;
+}
+
+div.sidebar-icons p{
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+div.lower-sidebar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 100px;
+    z-index: 400;
+    margin-top: 30px;
+    background-color: black;
+}
+
+div.profile-info {
+    width: 320px;
+}
+
+button.profile-button {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    background-color: black;
+    border-style: solid;
+    border-width: 0px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 38px;
+    transition: background-color 0.15s;
+}
+
+button.profile-button:hover {
+    cursor: pointer;
+    background-color: rgb(32, 35, 39);
+
+}
+
+div.prof-img-section {
+margin: 12px 5px;
+}
+
+img.sidebar-profile-pic {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    vertical-align: middle;
+}
+
+div.tag-names {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    z-index: 300;
+    margin-left: 10px;
+}
+
+div.sidebar-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+div.sidebar-tag {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+}
+
+div.more-icon {
+    margin-left: 80px;
+    margin-right: 5px;
+}
+
+img.more-bottom-icon {
+    height: 17px;
+    width: 17px;
+}
+
+
+
+
+
+
+
+
+
